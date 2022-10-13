@@ -1,17 +1,15 @@
 # Pacote_Calculadora
 
-Description. 
-The package package_name is used to:
+Descrição. 
+The pacote Pacote_calculadora é usado para:
 	 operacoes:
 		funções aritimeticas:
-		-	soma
-		-	subtracao
-		-	multiplicacao
-		-	divisao	
-	- 
-	-
+			-soma
+			-subtracao
+			-multiplicacao
+			-divisao	
 
-## Installation
+## Instalação
 
 Use o package manager [pip](https://pip.pypa.io/en/stable/) para instalar Pacote_Calculadora
 
@@ -19,7 +17,7 @@ Use o package manager [pip](https://pip.pypa.io/en/stable/) para instalar Pacote
 pip install Pacote_Calculadora
 ```
 
-## Usage
+## Uso
 
 ```python
 from Pacote_Calculadora import operacoes
@@ -29,7 +27,7 @@ operacoes.multiplicacao() para multiplicar os valores
 operacoes.divisao() para dividir os valores
 ```
 
-## Author
+## Autor
 Mateus Cesar de Araujo
 
 ## License
