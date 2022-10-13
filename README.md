@@ -1,27 +1,36 @@
-# package_name
+# Pacote_Calculadora
 
 Description. 
 The package package_name is used to:
+	 operacoes:
+		funções aritimeticas:
+		-	soma
+		-	subtracao
+		-	multiplicacao
+		-	divisao	
 	- 
 	-
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use o package manager [pip](https://pip.pypa.io/en/stable/) para instalar Pacote_Calculadora
 
 ```bash
-pip install package_name
+pip install Pacote_Calculadora
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from Pacote_Calculadora import operacoes
+operacoes.soma() para somar os valores
+operacoes.subtracao() para subtrair os valores
+operacoes.multiplicacao() para multiplicar os valores
+operacoes.divisao() para dividir os valores
 ```
 
 ## Author
-My_name
+Mateus Cesar de Araujo
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

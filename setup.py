@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="Pacote_Calculadora",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Mateus Cesar de Araujo",
+    author_email="mateus.cesararaujo@hotmail.com",
+    description="Calculadora basica para demonstração de criação de pacote",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url='https://github.com/MateusCDev/Criacao_Pacotes_Python',
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
